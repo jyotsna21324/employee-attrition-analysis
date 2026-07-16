@@ -58,19 +58,4 @@ Python (pandas, numpy, matplotlib), SQL (SQLite), Power BI (data import)
 - Employees with **0-1 year tenure** attrite the most at **34.9%**, dropping steadily with tenure
 - Total working years, monthly income, and age show the strongest negative correlation with attrition — more experienced, better-paid, older employees are least likely to leave
 
-## How to Run
 
-```
-cd scripts
-python3 01_data_cleaning.py
-python3 02_kpi_analysis.py
-python3 03_attrition_overview_chart.py
-python3 04_department_chart.py
-python3 05_jobrole_chart.py
-python3 06_overtime_chart.py
-python3 07_income_chart.py
-python3 08_tenure_satisfaction_chart.py
-python3 09_correlation_heatmap_chart.py
-```
-
-SQL queries can be run against `sql/attrition_database.db` using any SQLite client.
